@@ -1,0 +1,45 @@
+<<!DOCTYPE html>
+
+<head>
+
+<title> ES6 2 </title>
+
+</head>
+
+<body>
+
+<script>
+
+var mymap= new Map(); 
+mymap.set(1, 'one');
+mymap.set(2, 'two');
+mymap.set(3, 'three');
+console.log(mymap);
+
+
+var myset= new Set(); 
+myset.add(1);
+myset.add(2);
+myset.add(3);
+console.log(myset);
+myset.has(2);
+
+myset.forEach(function(value){
+
+	console.log(value);
+})
+
+var arraystring = ['one', 'two', 'three'];
+var myset= new Set(arraystring);
+
+myset.forEach(function(value){
+
+	console.log(value);
+
+	})
+
+</script>
+
+</body>
+
+</html>
